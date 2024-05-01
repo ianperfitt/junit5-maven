@@ -15,6 +15,7 @@ public class BasicSalaryCalculatorTest {
         basicSalaryCalculator = new BasicSalaryCalculator();
     }
 
+    @DisplayName("Test BasicSalaryCalculator with valid salary")
     @Test
     void testBasicSalaryWithValidSalary() {
         double basicSalary = 4000;
